@@ -15,26 +15,26 @@ son asignados de forma centralizada por el área de recepción, que recibe las s
 personalmente, por teléfono, por e-mail o a través del sitio web de la clínica. La duración mínima de
 un turno es de 15 minutos.”
 
-## Tipos de Usuarios y Tareas a Realizar
+# Tipos de Usuarios y Tareas a Realizar
 
-# Administrador
+## Administrador
 Puede dar de alta (Clientes, Especialistas, Recepcionista).
 Ver Estadísticas.
 
-# Cliente
+## Cliente
 El cliente puede pedir un turno y seleccionar el especialista.
 Al realizar la solicitud de turno se le otorgará un código que identifica la sala que le
 corresponde.
 El cliente puede ver los turnos pedidos.
 Al terminar la visita con el especialista, el cliente podrá realizar una encuesta.
 
-# Recepcionista
+## Recepcionista
 El recepcionista puede pedir un turno para un cliente que llamó de forma telefónica o
 para un tratamiento pedido por el especialista.
 El recepcionista podrá cancelar turnos.
 En la sala de espera se verán los consultorios ocupados y el próximo a ser ocupado.
 
-# Especialistas
+## Especialistas
 El especialista podrá ver los turnos que tiene por fecha.
 Marca quien vino de los pacientes.
 Permite cargar un breve reseña de los trabajos realizados en el paciente.
