@@ -1,5 +1,18 @@
 <br><br>
-<table appPanel class="table table-sm table-hover table-primary table-striped">
+
+<div class="bg">
+  <br>
+<div class="container">
+
+  
+  <div class="row float-left">
+      <div class="col-sm-8 col-md-6 col-lg-4">
+
+  <div class="card text-white bg-danger mb-4 mx-auto" style="width: 60rem;">
+  <article class="card-body" style="width: 60rem;">
+
+
+<table appPanel class="table table-sm table-hover table-info table-striped">
   <thead>
     <tr>
       <th class="text-center" colspan="7"><b>Lista de usuarios conectados recientemente</b></th>
@@ -10,7 +23,7 @@
       <th>Nombre</th>
       <th>Apellido</th>
       <th>Fecha & hora</th>
-      <th>Imagen</th>
+      <!-- <th>Imagen</th> -->
     </tr>
   </thead>
   <tbody>
@@ -20,8 +33,11 @@
 	<td>{{log.data.firstName}}</td>
 	<td>{{log.data.lastName}}</td>
 	<td>{{log.data.date}}</td>
-	<td><img src="{{imgs[i]}}"  height="75" width="75"></td>
-    </tr>
+	<!-- <td><img src="{{imgs[i]}}"  height="75" width="75"></td>
+    </tr> -->
   </tbody>
 </table>
+</article>
+</div> <!-- card.// -->
+</div>
 

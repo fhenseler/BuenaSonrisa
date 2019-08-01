@@ -25,7 +25,7 @@ import { NgxCaptchaModule } from 'ngx-captcha';
 import { TypeValidatorDirective } from './Directives/type-validator.directive';
 import { StatisticsComponent } from './Components/statistics/statistics.component';
 import { LogComponent } from './Components/log/log.component';
-
+import { SampleModule } from 'angular-pdf-generator';
 
 @NgModule({
   declarations: [
@@ -54,7 +54,8 @@ import { LogComponent } from './Components/log/log.component';
     // NgbModule.forRoot(),
     NgbModule,
     NgxSpinnerModule,
-    NgxCaptchaModule
+    NgxCaptchaModule,
+    SampleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

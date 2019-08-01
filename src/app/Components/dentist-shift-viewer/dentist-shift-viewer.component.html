@@ -1,9 +1,14 @@
 <app-spinner></app-spinner>
+<br>
+<button type="button" class="btn btn-danger center-block" (click)="generarPDF()" style="margin-left: 600px;">Generar PDF</button>
+<app-log></app-log>
+
 
 <div class="bg">
     <br>
 <div class="container">
 
+    
     
     <div class="row float-left">
         <div class="col-sm-8 col-md-6 col-lg-4">
@@ -11,7 +16,7 @@
     <div class="card text-white bg-danger mb-4 mx-auto" style="width: 60rem;">
     <article class="card-body" style="width: 60rem;">
 
-<table appPanel class="table table-sm table-hover table-info table-striped">
+<table appPanel id="tablaPDF" class="table table-sm table-hover table-info table-striped">
   <thead>
     <tr>
       <th class="text-center" colspan="7"><b>Lista de turnos</b></th>
