@@ -1,6 +1,11 @@
-<h1>Federico Henseler - Laboratorio IV - Trabajo Práctico Nº 2 - Buena Sonrisa</h1>
+<h1>Laboratorio IV</h1>
+<h1>Trabajo Práctico Nº 2 - Buena Sonrisa</h1>
+<h1>Alumno: Federico Henseler</h1>  
+<h1>Link: https://tp-buena-sonrisa.firebaseapp.com/</h1>
 
-##Requerimientos de la Aplicación
+<br><br>
+
+# Requerimientos de la Aplicación
 Debemos realizar un sistema según las necesidades y deseos del cliente, para eso tenemos una
 breve descripción de lo que el cliente nos comenta acerca de su negocio.
 “La clínica Buena Sonrisa, especialista en salud dental, cuenta actualmente con siete consultorios
@@ -13,26 +18,26 @@ son asignados de forma centralizada por el área de recepción, que recibe las s
 personalmente, por teléfono, por e-mail o a través del sitio web de la clínica. La duración mínima de
 un turno es de 15 minutos.”
 
-##Tipos de Usuarios y Tareas a Realizar
+# Tipos de Usuarios y Tareas a Realizar
 
-#Administrador
-Puede dar de alta (Clientes, Especialistas, Recepcionista).
+## Administrador
+Puede dar de alta (Clientes, Especialistas, Recepcionista). <br>
 Ver Estadísticas.
 
-#Cliente
+## Cliente
 El cliente puede pedir un turno y seleccionar el especialista.
 Al realizar la solicitud de turno se le otorgará un código que identifica la sala que le
 corresponde.
 El cliente puede ver los turnos pedidos.
 Al terminar la visita con el especialista, el cliente podrá realizar una encuesta.
 
-#Recepcionista
+## Recepcionista
 El recepcionista puede pedir un turno para un cliente que llamó de forma telefónica o
 para un tratamiento pedido por el especialista.
 El recepcionista podrá cancelar turnos.
 En la sala de espera se verán los consultorios ocupados y el próximo a ser ocupado.
 
-#Especialistas
+## Especialistas
 El especialista podrá ver los turnos que tiene por fecha.
 Marca quien vino de los pacientes.
 Permite cargar un breve reseña de los trabajos realizados en el paciente.
