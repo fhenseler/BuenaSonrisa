@@ -20,7 +20,7 @@ un turno es de 15 minutos.”
 # Tipos de Usuarios y Tareas a Realizar
 
 ## Administrador
-Puede dar de alta (Clientes, Especialistas, Recepcionista).
+Puede dar de alta (Clientes, Especialistas, Recepcionista). <br>
 Ver Estadísticas.
 
 ## Cliente
