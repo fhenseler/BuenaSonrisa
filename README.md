@@ -1,7 +1,9 @@
 <h1>Laboratorio IV</h1>
 <h1>Trabajo Práctico Nº 2 - Buena Sonrisa</h1>
 <h1>Alumno: Federico Henseler</h1>    
+
 <br><br>
+
 # Requerimientos de la Aplicación
 Debemos realizar un sistema según las necesidades y deseos del cliente, para eso tenemos una
 breve descripción de lo que el cliente nos comenta acerca de su negocio.
