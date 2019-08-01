@@ -2,7 +2,7 @@
 <h1>Trabajo Práctico Nº 2 - Buena Sonrisa</h1>
 <h1>Alumno: Federico Henseler</h1>    
 
-#Requerimientos de la Aplicación
+# Requerimientos de la Aplicación
 Debemos realizar un sistema según las necesidades y deseos del cliente, para eso tenemos una
 breve descripción de lo que el cliente nos comenta acerca de su negocio.
 “La clínica Buena Sonrisa, especialista en salud dental, cuenta actualmente con siete consultorios
