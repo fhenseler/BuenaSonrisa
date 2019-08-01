@@ -1,6 +1,8 @@
-<h1>Federico Henseler - Laboratorio IV - Trabajo Práctico Nº 2 - Buena Sonrisa</h1>
+<h1>Laboratorio IV</h1>
+<h1>Trabajo Práctico Nº 2 - Buena Sonrisa</h1>
+<h1>Alumno: Federico Henseler</h1>    
 
-##Requerimientos de la Aplicación
+#Requerimientos de la Aplicación
 Debemos realizar un sistema según las necesidades y deseos del cliente, para eso tenemos una
 breve descripción de lo que el cliente nos comenta acerca de su negocio.
 “La clínica Buena Sonrisa, especialista en salud dental, cuenta actualmente con siete consultorios
@@ -13,7 +15,7 @@ son asignados de forma centralizada por el área de recepción, que recibe las s
 personalmente, por teléfono, por e-mail o a través del sitio web de la clínica. La duración mínima de
 un turno es de 15 minutos.”
 
-##Tipos de Usuarios y Tareas a Realizar
+#Tipos de Usuarios y Tareas a Realizar
 
 #Administrador
 Puede dar de alta (Clientes, Especialistas, Recepcionista).
