@@ -1,4 +1,4 @@
-<h1><u>Laboratorio IV</u></h1>
+<u><h1>Laboratorio IV</h1></u>
 <h1>Trabajo Práctico Nº 2 - Buena Sonrisa</h1>
 <h1>Alumno: Federico Henseler</h1>    
 
