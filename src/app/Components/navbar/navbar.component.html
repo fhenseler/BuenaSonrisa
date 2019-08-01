@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Buena Sonrisa</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+   <ul class="navbar-nav mr-auto">
+     <li class="nav-item">
+        <a class="nav-link" *appTypeValidator="['Administrador']" 
+          routerLinkActive="active" routerLink="Register">Registrar</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" *appTypeValidator="['Recepcionista', 'Cliente']" 
+          routerLinkActive="active" routerLink="DentistShift">Pedir un turno</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" *appTypeValidator="['Administrador','Cliente', 'Especialista', 'Recepcionista']" 
+          routerLinkActive="active" routerLink="DentistShiftViewer">Información</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" *appTypeValidator="['Administrador']" 
+          routerLinkActive="active" routerLink="Statistics">Estadisticas</a>
+      </li>      
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <span class="navbar-text" *appTypeValidator="['Administrador','Cliente', 'Especialista', 'Recepcionista']"> <i class="far fa-id-card"></i> {{email}} - {{firstName}} - {{type}}</span>
+      <!--<li class="nav-item"><a class="nav-link" routerLink="Login"><i class="fas fa-sign-in-alt"></i>Loguearse</a></li>-->
+      <li class="nav-item"><a class="nav-link" *appTypeValidator="['Administrador','Cliente', 'Especialista', 'Recepcionista']"  (click)="logout()">Salir</a></li>
+    </ul>
+</div>
+</nav>
+<!-- <br>
+<br> -->    

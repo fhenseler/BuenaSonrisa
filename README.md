@@ -1,27 +1,41 @@
-# BuenaSonrisa
+<h1>Federico Henseler - Laboratorio IV - Trabajo Práctico Nº 2 - Buena Sonrisa</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
+##Requerimientos de la Aplicación
+Debemos realizar un sistema según las necesidades y deseos del cliente, para eso tenemos una
+breve descripción de lo que el cliente nos comenta acerca de su negocio.
+“La clínica Buena Sonrisa, especialista en salud dental, cuenta actualmente con siete consultorios
+(más otros tres que están en construcción), dos laboratorios (uno especializado en diagnóstico por
+imágenes, y otro en mecánica dental), y una sala de espera general. Está abierta al público de lunes
+a viernes en el horario de 8:00 a 19:00, y los sábados en el horario de 8:00 a 14:00.
+Trabajan en ella profesionales de diversas especialidades, que ocupan los consultorios acorde a su
+disponibilidad, y reciben en ellos pacientes con turno para consulta o tratamiento. Dichos turnos
+son asignados de forma centralizada por el área de recepción, que recibe las solicitudes
+personalmente, por teléfono, por e-mail o a través del sitio web de la clínica. La duración mínima de
+un turno es de 15 minutos.”
 
-## Development server
+##Tipos de Usuarios y Tareas a Realizar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#Administrador
+Puede dar de alta (Clientes, Especialistas, Recepcionista).
+Ver Estadísticas.
 
-## Code scaffolding
+#Cliente
+El cliente puede pedir un turno y seleccionar el especialista.
+Al realizar la solicitud de turno se le otorgará un código que identifica la sala que le
+corresponde.
+El cliente puede ver los turnos pedidos.
+Al terminar la visita con el especialista, el cliente podrá realizar una encuesta.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#Recepcionista
+El recepcionista puede pedir un turno para un cliente que llamó de forma telefónica o
+para un tratamiento pedido por el especialista.
+El recepcionista podrá cancelar turnos.
+En la sala de espera se verán los consultorios ocupados y el próximo a ser ocupado.
 
-## Build
+#Especialistas
+El especialista podrá ver los turnos que tiene por fecha.
+Marca quien vino de los pacientes.
+Permite cargar un breve reseña de los trabajos realizados en el paciente.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

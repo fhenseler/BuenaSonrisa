@@ -1,0 +1,30 @@
+.card{
+    width: 45rem;
+}
+
+body, html {
+    height: 100%;
+    background-image: url(../../../assets/back.jpg);
+    height: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+
+
+/* body, html {
+    height: 100%;
+  }
+  .bg { */
+    /* The image used */
+    /* background-image: url("../../../assets/background.jpg"); */
+  
+    /* Full height */
+    /* height: 100%; */
+  
+    /* Center and scale the image nicely */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
