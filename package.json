@@ -28,7 +28,7 @@
     "canvasjs": "^1.8.1",
     "firebase": "^6.3.3",
     "html2canvas": "^1.0.0-rc.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jspdf": "^1.5.3",
     "ngx-captcha": "^7.0.0",
     "ngx-spinner": "^8.0.3",
